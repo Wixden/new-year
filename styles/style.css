@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  max-width: 1140px;
+  /* margin-top: 130px; */
+}
+
+/* Header Section Styles */
+
+.header {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 800px;
+}
+
+.header-content {
+  width: 550px;
+  padding: 220px 230px;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.section-description {
+  margin: 25px 0 15px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+.header-description {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: right;
+  color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 25px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #005fac;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  float: right;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 0 2px #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+/* Success Section Styles */
+.success {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 130px;
+  align-items: center;
+  gap: 90px;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.success li {
+  float: left;
+  margin: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.success li i {
+  margin-right: 10px;
+  color: #16d887;
+}
+
+/* Plan Section Styles */
+
+.plans {
+  margin: 0 auto;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.plan-container {
+  margin-top: 50px;
+  display: flex;
+  gap: 85px;
+}
+
+.plan {
+  text-align: center;
+  width: 100%;
+}
+
+.plan-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 35px;
+  color: #151414;
+  margin-top: 15px 0 15px 0;
+}
+
+.plan-description {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+
+/* Call Now Section */
+
+.call-section {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.call-now {
+  padding: 60px 65px;
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-top: 130px;
+  height: 160px;
+}
+
+.call-now-title {
+  margin: 0;
+  width: 460px;
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.call-now button {
+  float: left;
+  margin-bottom: 100px;
+}
+
+.call-now button:hover {
+  box-shadow: 0 0 0 2px #fff;
+  background-color: transparent;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+/* Footer Section Styles */
+footer {
+  background: #151414;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 230px;
+}
+
+.footer-left {
+  width: 485px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+
+.footer-description {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+
+.contact {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.social {
+  margin-top: 35px;
+  display: flex;
+  gap: 18px;
+}
+
+.social img {
+  width: 35px;
+}
+
+.form-title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-right input[type="email"] {
+  width: 280px;
+  padding: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f3f3f3;
+  margin-bottom: 16px;
+}
+
+.footer-right input[type="email"]:focus {
+  outline: 0;
+}
+
+.footer-right input[type="submit"] {
+  background: #005fac;
+  border-radius: 8px;
+  padding: 20px 35px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: 0.5s ease-in-out;
+}
+
+.footer-right input[type="submit"]:hover {
+  box-shadow: 0 0 0 2px #fff;
+  background-color: transparent;
+  color: #fff;
+}
