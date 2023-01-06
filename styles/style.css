@@ -246,6 +246,7 @@ footer {
   line-height: 21px;
   color: #f3f3f3;
   margin-bottom: 16px;
+  background-color: transparent;
 }
 
 .footer-right input[type="email"]:focus {
