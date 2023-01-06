@@ -17,12 +17,11 @@ section {
   background-size: cover;
   display: flex;
   flex-direction: row-reverse;
-  height: 800px;
+  padding: 220px 230px;
 }
 
 .header-content {
   width: 550px;
-  padding: 220px 230px;
 }
 
 .section-title {
@@ -145,11 +144,10 @@ li {
 
 .call-section {
   margin: 0 auto;
-  padding: 0;
 }
 
 .call-now {
-  padding: 60px 65px;
+  padding: 60px 65px 85px 65px;
   background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
     url("../images/watch.png");
   background-repeat: no-repeat;
